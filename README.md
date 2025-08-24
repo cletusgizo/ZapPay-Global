@@ -14,7 +14,26 @@ Contributing
 License
 About ZapPay ZapPay is designed to make crypto payments simple and accessible. With 0.034 USDC flat fee per transaction, merchants get a cheaper alternative to traditional processors, while users enjoy fast and secure Web3-native payments.
 
-Folder Structure (MVP) ZapPay/ ├── contracts/ # Smart contract source code │ ├── ZapPay.cairo # Core payment contract │ └── interfaces/ # Contract interfaces ├── app/ # Frontend app (Next.js / React) │ ├── components/ # UI Components │ └── pages/ # Screens and routes ├── scripts/ # Deployment & automation scripts │ └── deploy.js # Smart contract deploy script ├── test/ # Unit & integration tests │ └── ZapPay.test.js # Test cases ├── docs/ # Documentation │ ├── Overview.md # Protocol overview │ ├── Payment-Flow.md # Payment workflow │ └── Business-Model.md # Business model details ├── assets/ # Screenshots & demo GIFs ├── package.json ├── hardhat.config.js # Foundry configuration ├── .env.example # Environment variables template ├── .gitignore └── README.md
+Folder Structure (MVP) ZapPay/ 
+├── autoautoswap-sdk/ # Smart contract source code │ 
+├── ZapPay.cairo # Core payment contract │ 
+└── interfaces/ # Contract interfaces 
+├── app/ # Frontend app (Next.js / React) │ 
+├── components/ # UI Components │ └── pages/ # Screens and routes 
+├── scripts/ # Deployment & automation scripts │
+└── deploy.js # Smart contract deploy script 
+├── test/ # Unit & integration tests 
+│ └── ZapPay.test.js # Test cases 
+├── docs/ # Documentation │ 
+├── Overview.md # Protocol overview │ 
+├── Payment-Flow.md # Payment workflow 
+│ └── Business-Model.md # Business model details 
+├── assets/ # Screenshots & demo GIFs 
+├── package.json 
+├── hardhat.config.js # Foundry configuration 
+├── .env.example # Environment variables template 
+├── .gitignore 
+└── README.md
 
 MVP Features Core Functionality
 
